@@ -1,0 +1,8 @@
+[package]
+name = "rust_based_blockchain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+raft = "0.6" # Stable raft implementation in Rust
+tokio = { version = "1", features = ["full"] } # For async support
